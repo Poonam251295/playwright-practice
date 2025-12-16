@@ -6,4 +6,5 @@ const { chromium } = require('playwright');
   await page.goto('https://www.google.com');
   console.log(await page.title());
   await browser.close();
+  console.log("poonam")
 })();
